@@ -1,0 +1,143 @@
+/*PAGE*/
+
+.navbar{
+	font-family: 'Playfair Display SC', serif;;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+}
+
+h1, h2{
+font-family: 'Playfair Display', serif;	
+}
+
+
+.row{
+	padding: 50px;
+}
+
+.headcircle{
+border-radius: 1000px;
+margin: 10px auto;
+display: block;
+}
+
+.dropdown-menu {
+    background-color: rgba(171, 171, 171, 0.9);
+    margin: 0.5rem 0 0;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.form-group {
+    margin: .7rem 0rem;
+}
+
+#ring_home
+{
+  width: 30px;
+}
+
+.header-image-block{
+    left: 0;
+    position: absolute;
+background-color: rgba(24, 78, 106,.7);
+    background-blend-mode:multiply;
+    height: 400px;
+    padding: 5rem;
+    text-align: center;
+    width: 100%;}
+
+body{
+	background: #fff;
+	color: rgb(58, 102, 117);
+}
+
+.body-container{
+	width: 100%;
+}
+
+h1{
+	font-family: 'Playfair Display';
+font-weight: 500;
+	}
+
+/*MODIFIERS*/
+
+
+
+.row:nth-child(1){
+	padding: 55px 0px 0px 0px;
+}
+.center{
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+/*CONTENT*/
+.header-text{
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Playfair Display';
+	color: #ddd;
+}
+
+.instafeed-post img{
+	display: block;
+	height: 100%
+}
+
+.instafeed-post{
+	height:20vmax;
+	overflow:hidden;
+	font-size: 0px;
+	display: inline-block;
+	margin: 2vmax;
+}
+
+#instafeed{
+	text-align: center;
+}
+
+.header-image{
+	background: 
+		linear-gradient(
+		      rgba(0, 0, 0, .45), 
+		      rgba(0, 0, 0, .80)
+		      );
+    background-repeat:no-repeat;
+    background-position: 30% 75%;
+    background-size:cover;
+padding: 0px;
+}
+
+.title-text{
+	padding: 10vmin 20vmin;
+	color: #eee;
+}
+
+.row:nth-child(odd){
+	background-color: rgba(58, 102, 117, 1);
+	color: #fff;
+}
+
+
+@media (min-width: 992px){
+	li.nav-item{
+		padding: 0px 20px;
+	}
+}
+
+@media (max-width: 992px){
+	.dropdown-item{
+	padding: 15px 1.5rem;
+}
+
+li.nav-item {
+    padding: 20px 10px;
+}
+
+}	
