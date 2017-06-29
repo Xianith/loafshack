@@ -1,2 +1,2 @@
 <?php
-return '/Filesystem/js';
+return '/Filesystem/css';

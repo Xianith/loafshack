@@ -1,2 +1,2 @@
 <?php
-return '/Filesystem/assets/components/formit/js/mgr/widgets';
+return '/Filesystem/imgs';

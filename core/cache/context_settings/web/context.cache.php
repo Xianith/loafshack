@@ -5,14 +5,13 @@
   'aliasMap' => 
   array (
     'index.html' => 1,
-    'form.html' => 27,
+    'holla.html' => 27,
     'success.html' => 43,
     'gifts.html' => 28,
     'location/' => 30,
     'wedding-party/' => 33,
     'faq.html' => 37,
-    'holla.html' => 38,
-    'form/form-script.js' => 42,
+    'holla/form-script.js' => 42,
     'location/reception.html' => 31,
     'location/after-hours.html' => 32,
     'location/ceremony.html' => 29,
@@ -31,7 +30,6 @@
       4 => 30,
       5 => 33,
       6 => 37,
-      7 => 38,
     ),
     27 => 
     array (
