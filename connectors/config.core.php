@@ -4,6 +4,6 @@
  * Add customizations to the $config_options array in `core/config/config.inc.php`.
  *
  */
-define('MODX_CORE_PATH', '/srv/web/sites/loafshack.com/public/core/');
+define('MODX_CORE_PATH', '/srv/web/sites/loafshack.com/c0r3x/');
 define('MODX_CONFIG_KEY', 'config');
 ?>

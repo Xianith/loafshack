@@ -13,6 +13,7 @@ wow.init();
 var feed = new Instafeed({
     get: 'tagged',
     tagName: 'LoafshackWedding',
-    clientId: 'b13ba61d7c504e03b04d3ff8033e4716'
+    clientId: 'b13ba61d7c504e03b04d3ff8033e4716',
+    sortBy: 'most-recent'
 });
 feed.run();

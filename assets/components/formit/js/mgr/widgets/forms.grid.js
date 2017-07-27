@@ -7,7 +7,7 @@ FormIt.grid.Forms = function(config) {
         ,baseParams: {
             action: 'mgr/form/getlist'
         }
-        ,fields: ['id','form','values','message','attendance','foods', 'ip', 'date', 'hash']
+        ,fields: ['id','form','values', 'ip', 'date', 'hash']
         ,autoHeight: true
         ,paging: true
         ,remoteSort: true
@@ -20,25 +20,12 @@ FormIt.grid.Forms = function(config) {
         },{
             header: _('formit.values')
             ,dataIndex: 'values'
-            ,width: 225
+            ,width: 250
             ,renderer: function(value){
                 value = JSON.parse(value);
                 var output = '';
                 for(var k in value){
                     output += '<b>'+k+'</b>: '+value[k]+'\n';
-                }
-                return output;
-            }
-        },{
-            header: 'Food'
-            ,dataIndex: 'values'
-            ,width: 225
-            ,renderer: function(value){
-                value = JSON.parse(value);
-                var output = '';
-                for(var k in value){
-                    if (k == 'Food') { output += value[k]; } else { output += ''; }
-                    // output += value[k]+'\n';
                 }
                 return output;
             }
